@@ -1,0 +1,55 @@
+/* 全局容器调整 */
+html, body, .v-application {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+  }
+  
+  .v-application--wrap {
+    min-height: 0 !important;
+  }
+  
+  /* 减小卡片间距 */
+  .v-card {
+    margin-bottom: 8px !important;
+  }
+  
+  .v-card__title {
+    padding: 8px 16px !important;
+    min-height: auto !important;
+    font-size: 1.1rem !important;
+  }
+  
+  .v-card__text {
+    padding: 8px !important;
+  }
+  
+  .v-card__actions {
+    padding: 4px 8px !important;
+    min-height: auto !important;
+  }
+  
+  /* 调整列表项高度 */
+  .v-list-item {
+    min-height: 32px !important;
+    padding: 0 8px !important;
+  }
+  
+  .v-list {
+    padding: 0 !important;
+  }
+  
+  /* 主要内容区域 */
+  .v-main {
+    padding-top: 56px !important; /* 适应应用栏高度 */
+  }
+  
+  .v-app-bar {
+    height: 56px !important;
+  }
+  
+  .v-footer {
+    height: 36px !important;
+    padding: 0 16px !important;
+  }
